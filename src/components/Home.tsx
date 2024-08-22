@@ -7,6 +7,8 @@ const Home: React.FC = () => {
 
   return (
     <Space>
+      <Button onClick={() => navigate("/tic-tac-toe")}>Tic-Tac-Toe</Button>
+
       <Button onClick={() => navigate("/snake")}>Snake</Button>
     </Space>
   );
